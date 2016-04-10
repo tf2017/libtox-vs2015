@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="av">
+      <UniqueIdentifier>{913657d6-1fa4-4426-995c-421becf2af19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{c83cf047-c81c-47c6-a7c0-ac27ee6dd910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dns">
+      <UniqueIdentifier>{cfda27c6-0947-4bf2-a62c-83eee16fd427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encryptsave">
+      <UniqueIdentifier>{c90452a9-05a7-4b68-be82-9c65df76d6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{2489d82f-7be6-4369-b4b5-e53d72a86c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encryptsave\vanilla_nacl">
+      <UniqueIdentifier>{1342ffcc-f772-4d5a-bbc2-a8c31ff99212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\audio.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\bwcontroller.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\msi.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\rtp.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\toxav.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\video.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\assoc.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\crypto_core.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\DHT.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\friend_connection.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\friend_requests.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\group.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\LAN_discovery.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\list.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\logger.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\Messenger.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\misc_tools.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\net_crypto.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\network.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\onion.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\onion_announce.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\onion_client.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\ping.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\ping_array.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\TCP_client.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\TCP_connection.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\TCP_server.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\tox.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\tox_old.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\tox_old_code.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxcore\util.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxdns\toxdns.h">
+      <Filter>dns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\defines.h">
+      <Filter>encryptsave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\toxencryptsave.h">
+      <Filter>encryptsave</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxav\groupav.h">
+      <Filter>av</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\crypto_pwhash_scryptsalsa208sha256.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\crypto_scrypt.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\export.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\pbkdf2-sha256.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\runtime.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\sysendian.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\utils.h">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClInclude>
+    <ClInclude Include="pthread_win32.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\toxav\audio.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\bwcontroller.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\msi.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\rtp.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\toxav.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\toxav_old.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\video.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\assoc.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\crypto_core.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\DHT.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\friend_connection.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\friend_requests.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\group.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\LAN_discovery.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\list.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\logger.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\Messenger.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\net_crypto.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\network.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\onion.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\onion_announce.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\onion_client.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\ping.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\ping_array.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\TCP_client.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\TCP_connection.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\TCP_server.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\tox.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxcore\util.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxdns\toxdns.c">
+      <Filter>dns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\toxencryptsave.c">
+      <Filter>encryptsave</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxav\groupav.c">
+      <Filter>av</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\crypto_scrypt-common.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\pbkdf2-sha256.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\pwhash_scryptsalsa208sha256.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\runtime.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\scrypt_platform.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\utils.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\nosse\pwhash_scryptsalsa208sha256_nosse.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\sse\pwhash_scryptsalsa208sha256_sse.c">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_destroy.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_init.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_lock.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_trylock.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutex_unlock.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_destroy.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_gettype.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_init.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="pthread_mutexattr_settype.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\toxencryptsave\crypto_pwhash_scryptsalsa208sha256\note_to_maintainers.txt">
+      <Filter>encryptsave\vanilla_nacl</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+How to compile libtox for Windows using Visual Studio 2015
+
+1. In order to compile video decoder library libvpx you need standalone assembler yasm 1.3.0 for Windows.
+
+You can download it from official web-site http://yasm.tortall.net/Download.html (recommended way)
+Alternatively, you can unpack yasm-1.3.0.zip.
+
+It need to copy assembler executable into win32 subdirectory of libvpx source directory 
+
+Directory of <libtox-vs2015>\libvpx\win32:
+04/06/2016  09:52 AM    <DIR>          .
+04/06/2016  09:52 AM    <DIR>          ..
+01/06/2016  12:07 PM            31,538 vp8_rtcd.h
+...
+01/06/2016  12:07 PM               294 vpx_version.h
+01/05/2016  10:07 PM           624,640 yasm.exe           <<< yasm-1.3.0
+              11 File(s)        965,918 bytes
+
+2. Open libtox-vs2015.sln with Visual Studio 2015 (earlier versions are not supported), 
+set libtox project as StartUp project, choose Release configuration and run Rebuild.
+
+After successful build you will see new created directory libtox_x86_release with build results, 
+bin subdirectory will contain libtox.dll, 
+lib subdirectory will contain libtox.lib, 
+headers subdirectory will contain all related header files.
